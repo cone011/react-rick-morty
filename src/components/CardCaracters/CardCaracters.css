@@ -1,0 +1,99 @@
+.caracter {
+  box-shadow: 0 2.4rem 4.8rem #28527a;
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  background: #fff;
+}
+
+.caracter:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem #08b2c9;
+}
+
+.caracter-img {
+  width: 100%;
+}
+
+.caracter-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.status-tag {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.8rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--alive {
+  background-color: #51cf66;
+}
+
+.tag--dead {
+  background-color: #eeb3b3;
+}
+
+.tag--unknown {
+  background-color: #e1c481;
+}
+
+.caracter-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.caracter-info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.caracter-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .caracter-attribute span {
+    font-size: 2.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .caracter-attribute span {
+    font-size: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .caracter-attribute span {
+    font-size: 2.4rem;
+  }
+}

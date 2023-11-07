@@ -1,0 +1,17 @@
+.rick-and-morty-container {
+  text-align: center;
+}
+
+.rick-and-morty-img {
+  width: 40%;
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .rick-and-morty-img {
+    width: 60%;
+  }
+}
