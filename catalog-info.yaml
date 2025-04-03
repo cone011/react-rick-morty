@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-rick-morty
+  annotations:
+    github.com/project-slug: cone011/react-rick-morty
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Plataforma
